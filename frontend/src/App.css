@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+.blog{
+  outline: .5px solid #C8C8C8;
+}
+
+.inputBox{
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+  border: 0px;
+  outline: .5px solid #C8C8C8;
+  border-radius: 5px;
+}
+.inputBox input{
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.inputBox textarea{
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  min-height: 150px;
+  resize: vertical;
+  background-color: transparent;
+}
+
+
+.btnBlue{
+  padding: 10px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3797EF;
+  border: 0;
+  text-align: center;
+  outline: 0;
+}
+.jodit-container{
+  margin-top: 10px;
+  /* width: 80vw !important; */
+}
